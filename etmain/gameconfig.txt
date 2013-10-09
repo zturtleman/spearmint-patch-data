@@ -1,0 +1,2 @@
+defaultSound "sound/player/hurt_barbwire.wav"
+

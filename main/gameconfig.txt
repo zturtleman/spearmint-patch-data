@@ -1,0 +1,3 @@
+// NOTE: located in mp_pak0.pk3
+defaultSound "sound/multiplayer/hurt_barbwire.wav"
+

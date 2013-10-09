@@ -1,3 +1,5 @@
+defaultSound "sound/feedback/hit.wav"
+
 // This is a quake 3 mod, so add baseq3 to search path.
 addGameDir baseq3
 
