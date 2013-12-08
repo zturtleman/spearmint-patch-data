@@ -1,2 +1,3 @@
 defaultSound "sound/player/hurt_barbwire.wav"
+cvarDefault r_overBrightBits 0
 
