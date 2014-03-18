@@ -1,0 +1,16 @@
+defaultSound "sound/feedback/hit.wav"
+addLoadingScreen menuback ( 0 0 0 ) 1.333333
+
+paksums {
+	// nodownload keyword tells server not to allow pk3 to be downloaded
+	pak0	4204185745	nodownload
+	pak1	4193093146	nodownload
+	pak2	2353701282	nodownload
+	pak3	3321918099	nodownload
+	pak4	2809125413	nodownload
+	pak5	1185311901	nodownload
+	pak6	750524939	nodownload
+	pak7	2842227859	nodownload
+	pak8	3662040954	nodownload
+}
+

@@ -1,4 +1,0 @@
-defaultSound "sound/player/hurt_barbwire.wav"
-cvarDefault r_overBrightBits 0
-cvarDefault r_defaultFogParmsType linear
-

@@ -1,0 +1,7 @@
+defaultSound "sound/multiplayer/hurt_barbwire.wav"
+
+paksums {
+	// nodownload keyword tells server not to allow pk3 to be downloaded
+	pak0	1731729369	nodownload
+}
+

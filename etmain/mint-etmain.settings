@@ -1,0 +1,11 @@
+defaultSound "sound/player/hurt_barbwire.wav"
+cvarDefault r_overBrightBits 0
+cvarDefault r_defaultFogParmsType linear
+
+paksums {
+	// nodownload keyword tells server not to allow pk3 to be downloaded
+	pak0	1627565872	nodownload
+	pak1	1587932567	nodownload
+	pak2	3477493040	nodownload
+}
+
