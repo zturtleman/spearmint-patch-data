@@ -1,0 +1,16 @@
+defaultSound "sound/weapons/drop.wav"
+cvarDefault r_shadersDirectory shaders
+cvarDefault r_surfaceFlagNoDraw 2097152 // SURF_NODRAW 0x00200000
+
+paksums {
+	// nodownload keyword tells server not to allow pk3 to be downloaded
+	maps			3777314092	nodownload
+	models			870584635	nodownload
+	mp				3804816209	nodownload
+	musicandsound	2856508620	nodownload
+	skins			2266523608	nodownload
+	textures0		2947265210	nodownload
+	textures1234	780885262	nodownload
+	therest			706621176	nodownload
+}
+

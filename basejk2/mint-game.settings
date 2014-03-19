@@ -1,0 +1,12 @@
+defaultSound "sound/weapons/overchargefast.wav"
+cvarDefault r_shadersDirectory shaders
+cvarDefault r_surfaceFlagNoDraw 2097152 // SURF_NODRAW 0x00200000
+
+paksums {
+	// nodownload keyword tells server not to allow pk3 to be downloaded
+	assets0 3246002833	nodownload
+	assets1 634353621	nodownload
+	assets2 2822118454	nodownload
+	assets5 2251292123	nodownload
+}
+
