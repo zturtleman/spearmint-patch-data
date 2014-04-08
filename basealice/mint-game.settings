@@ -1,0 +1,11 @@
+defaultSound "sound/weapon/shared/bullet_world1.wav"
+
+paksums {
+	// nodownload keyword tells server not to allow pk3 to be downloaded
+	pak0			2316122173	nodownload
+	pak1_large		604052584	nodownload
+	pak2			2660859421	nodownload
+	pak3			1218388793	nodownload
+	pak4_english	1445094578	nodownload
+}
+

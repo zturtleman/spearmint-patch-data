@@ -1,0 +1,9 @@
+defaultSound "sound/weapons/gun/nobullets.wav"
+
+paksums {
+	// nodownload keyword tells server not to allow pk3 to be downloaded
+	pak0			2121461025	nodownload
+	pak1			3348032029	nodownload
+	pak2			1592529900	nodownload
+}
+
