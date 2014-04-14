@@ -1,4 +1,5 @@
 defaultSound "sound/weapons/gun/nobullets.wav"
+cvarDefault r_overBrightBits 0
 
 paksums {
 	// nodownload keyword tells server not to allow pk3 to be downloaded

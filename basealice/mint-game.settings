@@ -1,4 +1,6 @@
 defaultSound "sound/weapon/shared/bullet_world1.wav"
+cvarDefault r_overBrightBits 0
+cvarDefault r_mapOverBrightBits 0
 
 paksums {
 	// nodownload keyword tells server not to allow pk3 to be downloaded
