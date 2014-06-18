@@ -1,0 +1,20 @@
+defaultSound "sound/feedback/hit.wav"
+addLoadingScreen textures/sfx/logo512 ( 0.364705882 0.090196078 0.090196078 ) 1
+
+// Note: These are checksums for the offical OpenArena 0.8.8 pk3s.
+//
+// Debian packages have modified pk3s (replaced QVMs) and have different
+// checksums in Spearmint (fixed the bug they abused). So Debian pk3s
+// fail checksum test and are not pure compatible. TODO: fix this?...
+paksums {
+	pak0				1498074358
+	pak1-maps			1492737483
+	pak2-players		1897460214
+	pak2-players-mature	720476197	optional
+	pak4-textures		3339517386
+	pak5-TA				1141524809
+	pak6-misc			4172653611
+	pak6-patch085		1049681887
+	pak6-patch088		2834209156
+}
+
