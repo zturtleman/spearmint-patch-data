@@ -1,0 +1,16 @@
+defaultSound "sound/feedback/hit.wav"
+addLoadingScreen "menuback" ( 0 0 0 ) 1.333333
+
+// fallback data for missing fonts, shaders, and sarge player model
+addGameDir fallback-data
+
+// note: also need sound and video directories
+paksums {
+	Pak0	26400568	nodownload
+	Pak1	1602474736	nodownload
+	Pak2	3674983257	nodownload
+	Pak3	2766457535	nodownload
+	Pak4	2072486096	nodownload
+	Pak5	694932018	nodownload
+}
+

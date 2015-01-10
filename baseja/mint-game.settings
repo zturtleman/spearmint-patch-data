@@ -3,6 +3,9 @@ addLoadingScreen menu/splash ( 0.003921569 0.007843137 0.129411765 ) 1.333333
 cvarDefault r_shadersDirectory shaders
 cvarDefault r_surfaceFlagNoDraw 2097152 // SURF_NODRAW 0x00200000
 
+// fallback data for missing fonts, shaders, and sarge player model
+addGameDir fallback-data
+
 paksums {
 	// nodownload keyword tells server not to allow pk3 to be downloaded
 	assets0 3246327225	nodownload

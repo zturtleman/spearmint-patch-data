@@ -1,0 +1,12 @@
+// NOTE: This game direction is not playable by itself, you must use rtcwsp or rtcwmp
+
+// fallback data for missing fonts, shaders, and sarge player model
+// NOTE: this is only used when loading rtcwcommon, not rtcwsp/mp.
+//       it provides a hit sound so that if it's loaded from mods menu
+//       the game soft errors back to previous game instead of crashing...
+addGameDir fallback-data
+
+paksums {
+	pak0	1787286276	nodownload
+}
+

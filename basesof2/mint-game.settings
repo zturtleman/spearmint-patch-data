@@ -2,6 +2,9 @@ defaultSound "sound/weapons/drop.wav"
 cvarDefault r_shadersDirectory shaders
 cvarDefault r_surfaceFlagNoDraw 2097152 // SURF_NODRAW 0x00200000
 
+// fallback data for missing fonts, shaders, and sarge player model
+addGameDir fallback-data
+
 paksums {
 	// nodownload keyword tells server not to allow pk3 to be downloaded
 	maps			3777314092	nodownload

@@ -1,5 +1,8 @@
 defaultSound "sound/multiplayer/hurt_barbwire.wav"
 
+// fallback data for missing fonts, shaders, and sarge player model
+addGameDir fallback-data
+
 paksums {
 	// nodownload keyword tells server not to allow pk3 to be downloaded
 	pak0	1731729369	nodownload

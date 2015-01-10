@@ -1,0 +1,19 @@
+defaultSound "sound/feedback/hit.wav"
+addLoadingScreen "gfx/2d/load_screen" ( 0 0 0 ) 1.333333
+
+// fallback data for missing fonts, shaders, and sarge player model
+addGameDir fallback-data
+
+paksums {
+	data-1.1.0.pk3				2812325321
+	map-arachnid2-1.1.0.pk3		627090456
+	map-atcs-1.1.0.pk3			1869817167
+	map-karith-1.1.0.pk3		414067189
+	map-nexus6-1.1.0.pk3		2137637707
+	map-niveus-1.1.0.pk3		3656601972
+	map-transit-1.1.0.pk3		3648091582
+	map-tremor-1.1.0.pk3		2194825325
+	map-uncreation-1.1.0.pk3	544813384
+	vms-1.1.0.pk3				3536809584
+}
+

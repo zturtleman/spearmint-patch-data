@@ -1,0 +1,9 @@
+// fallback data for missing fonts, shaders, and sarge player model
+addGameDir fallback-data
+
+paksums {
+	pak0				733221789
+	sg_pak0				3115772099
+	included_fanpak0	2890332091 optional
+}
+

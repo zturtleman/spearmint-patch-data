@@ -1,0 +1,18 @@
+// NOTE: located in mp_pak0.pk3
+defaultSound "sound/multiplayer/hurt_barbwire.wav"
+
+// include rtcw pak0
+addGameDir rtcwcommon
+
+// fallback data for missing fonts, shaders, and sarge player model
+addGameDir fallback-data
+
+paksums {
+	mp_pak0	825182904	nodownload
+	mp_pak1	1872082070	nodownload
+	mp_pak2	220365352	nodownload
+	mp_pak3	1130325916	nodownload optional
+	mp_pak4	3272074268	nodownload optional
+	mp_pak5	3805724433	nodownload optional
+}
+

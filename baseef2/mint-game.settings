@@ -1,0 +1,20 @@
+defaultSound "sound/feedback/hit.wav"
+addLoadingScreen "menuback" ( 0 0 0 ) 1.333333
+cvarDefault r_shadersDirectory shaders
+
+// fallback data for missing fonts, shaders, and sarge player model
+addGameDir fallback-data
+
+paksums {
+	locpak1		3352313573		nodownload
+	locpak2		2804100764		nodownload
+	pak0		2352539509		nodownload
+	pak10		463168777		nodownload
+	pak15		2210637528		nodownload
+	pak16		3099664436		nodownload
+	pak20		2830703861		nodownload
+	pak30		2644647707		nodownload
+	pak31		3363896022		nodownload
+	pak32		2740094366		nodownload
+}
+

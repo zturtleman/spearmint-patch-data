@@ -1,6 +1,9 @@
 defaultSound "sound/weapons/gun/nobullets.wav"
 cvarDefault r_overBrightBits 0
 
+// fallback data for missing fonts, shaders, and sarge player model
+addGameDir fallback-data
+
 paksums {
 	// nodownload keyword tells server not to allow pk3 to be downloaded
 	pak0			2121461025	nodownload
