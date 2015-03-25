@@ -13,7 +13,7 @@ Game titles and logo designs are copyright id Software or their respectful owner
 
   * Quake III Arena window icons based on quake3.svg image from ioquake3 project.
   * RTCW and ET window icons based on wet.svg image from zenthought.org.
-  * rtcwcommon/scripts/common.shader and ui_wolf.shader are edit versions to fix syntax from RTCW pak0.pk3.
+  * rtcwcommon/scripts/common.shader and ui_wolf.shader are edited versions to fix syntax from RTCW pak0.pk3.
 
 ## Games
 | Title                             | Original Game Dir | Spearmint Game Dir | Game code repo for testing |
@@ -32,6 +32,7 @@ Game titles and logo designs are copyright id Software or their respectful owner
 | Heavy Metal F.A.K.K.2             | fakk              | fakk               | mint-metal |
 | Medal of Honor: Allied Assault    | main              | basemohaa          | mint-metal |
 | American McGee's Alice            | base              | basealice          | mint-metal |
+| American McGee's Alice Demo       | demo              | demoalice          | mint-metal |
 | Solder of Fortune 2               | base              | basesof2           | mint-helix |
 | Jedi Outcast                      | base              | basejk2            | mint-helix |
 | Jedi Academy                      | base              | baseja             | mint-helix |
