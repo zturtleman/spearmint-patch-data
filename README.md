@@ -13,6 +13,7 @@ Game titles and logo designs are copyright id Software or their respectful owner
 
   * Quake III Arena window icons based on quake3.svg image from ioquake3 project.
   * RTCW and ET window icons based on wet.svg image from zenthought.org.
+  * World of Padman window icon based on icon.svg image from World of Padman 1.6.
   * rtcwcommon/scripts/common.shader and ui_wolf.shader are edited versions to fix syntax from RTCW pak0.pk3.
 
 ## Games
@@ -39,6 +40,7 @@ Game titles and logo designs are copyright id Software or their respectful owner
 | OpenArena 0.8.8                   | baseoa            | baseoa             | mint-arena |
 | Tremulous 1.1                     | base              | basetrem           | mint-arena |
 | Smokin' Guns 1.1                  | smokinguns        | smokinguns         | mint-arena |
+| World of Padman 1.6               | wop               | wop                | mint-arena |
 
 [![githalytics.com alpha](https://cruel-carlota.pagodabox.com/7817f3e5ff80a73220f4882c3032d235 "githalytics.com")](http://githalytics.com/zturtleman/spearmint-patch-data)
 

@@ -1,0 +1,15 @@
+defaultSound "sound/feedback/hit.wav"
+cvarDefault r_overBrightBits 0
+
+// fallback data for missing fonts, shaders, and sarge player model
+addGameDir fallback-data
+
+paksums {
+	wop_001 3808529831
+	wop_002 1988934390
+	wop_003 1229222889
+	wop_004 141076402
+	wop_005 4097753989
+	wop_006 2938512639
+}
+
