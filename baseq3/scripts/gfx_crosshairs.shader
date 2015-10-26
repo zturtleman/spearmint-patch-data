@@ -1,10 +1,10 @@
-// make crosshair shader use vertex rgba
+// Make crosshair shaders use vertex RGBA.
 
-gfx/2d/crosshair
+gfx/2d/crosshaira
 {
 	nopicmip
 	{
-		map gfx/2d/crosshair.tga
+		map gfx/2d/crosshaira.tga
 		blendFunc blend
 		rgbGen exactVertex
 		alphaGen vertex
@@ -104,17 +104,6 @@ gfx/2d/crosshairj
 	nopicmip
 	{
 		map gfx/2d/crosshairj.tga
-		blendFunc blend
-		rgbGen exactVertex
-		alphaGen vertex
-	}
-}
-
-gfx/2d/crosshairk
-{
-	nopicmip
-	{
-		map gfx/2d/crosshairk.tga
 		blendFunc blend
 		rgbGen exactVertex
 		alphaGen vertex
