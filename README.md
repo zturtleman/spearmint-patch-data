@@ -42,5 +42,3 @@ Game titles and logo designs are copyright id Software or their respectful owner
 | Smokin' Guns 1.1                  | smokinguns        | smokinguns         | mint-arena |
 | World of Padman 1.6               | wop               | wop                | mint-arena |
 
-[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/7817f3e5ff80a73220f4882c3032d235 "githalytics.com")](http://githalytics.com/zturtleman/spearmint-patch-data)
-
