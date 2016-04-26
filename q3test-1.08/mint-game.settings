@@ -1,0 +1,13 @@
+defaultSound "sound/feedback/hit.wav"
+addLoadingScreen menuback ( 0 0 0 ) 1.333333
+
+// fallback data for missing fonts, shaders, and sarge player model
+addGameDir fallback-data
+
+// pre-release Q3 colorizes rgbGen identity
+cvarDefault r_colorize2DIdentity 1
+
+paksums {
+	pak0 2621535480 nodownload
+}
+

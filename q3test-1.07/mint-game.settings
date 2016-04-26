@@ -1,0 +1,16 @@
+defaultSound "sound/feedback/hit.wav"
+addLoadingScreen menuback ( 0 0 0 ) 1.333333
+
+// q3test 1.07 is a patch for 1.06, so include the pak0.pk3 from the 1.06 path
+addGameDir q3test-1.06
+
+// fallback data for missing fonts, shaders, and sarge player model
+addGameDir fallback-data
+
+// pre-release Q3 colorizes rgbGen identity
+cvarDefault r_colorize2DIdentity 1
+
+paksums {
+	pak1 764268407 nodownload
+}
+

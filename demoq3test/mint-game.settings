@@ -1,0 +1,11 @@
+defaultSound "sound/feedback/hit.wav"
+addLoadingScreen menuback ( 0 0 0 ) 1.333333
+
+// pre-release Q3 colorizes rgbGen identity
+cvarDefault r_colorize2DIdentity 1
+
+paksums {
+	// nodownload keyword tells server not to allow pk3 to be downloaded
+	pak0	1241398730	nodownload
+}
+

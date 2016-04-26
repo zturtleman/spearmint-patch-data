@@ -6,7 +6,7 @@ Game patch data for Spearmint. Only Quake 3, Team Arena, and OpenArena (using Q3
 ## Compatibility
 Most of the patch data doesn't cause problems for the original game. So you may be able to share game directory between Spearmint and the original game.
 
-The Quake 3 Demo patch data (specifically, `demoq3/botfiles/inv.h`) is not compatible with the original game QVM.
+The Quake 3 Demo and Quake 3 Demo Test patch data (specifically, `demoq3/botfiles/inv.h` and `demoq3test/botfiles/inv.h`) are not compatible with the original game QVMs.
 
 ## Misc
 Game titles and logo designs are copyright id Software or their respectful owners.
@@ -15,6 +15,7 @@ Game titles and logo designs are copyright id Software or their respectful owner
   * RTCW and ET window icons based on wet.svg image from zenthought.org.
   * World of Padman window icon based on icon.svg image from World of Padman 1.6.
   * rtcwcommon/scripts/common.shader and ui_wolf.shader are edited versions to fix syntax from RTCW pak0.pk3.
+  * q3test-1.06 and q3test-1.08/scripts/gfx.shader are edited versions to fix syntax.
 
 ## Games
 | Title                             | Original Game Dir | Spearmint Game Dir | Game code repo for testing |
@@ -41,4 +42,8 @@ Game titles and logo designs are copyright id Software or their respectful owner
 | Tremulous 1.1                     | base              | basetrem           | mint-arena |
 | Smokin' Guns 1.1                  | smokinguns        | smokinguns         | mint-arena |
 | World of Padman 1.6               | wop               | wop                | mint-arena |
+| Q3 Demo Test (aka Q3Test 1.09)    | demoq3            | demoq3test         | mint-arena |
+| Q3Test 1.08                       | demoq3            | q3test-1.08        | mint-arena |
+| Q3Test 1.07                       | demoq3            | q3test-1.07        | mint-arena |
+| Q3Test 1.06                       | demoq3            | q3test-1.06        | mint-arena |
 
