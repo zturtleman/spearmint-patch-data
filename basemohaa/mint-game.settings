@@ -1,5 +1,6 @@
 defaultSound "sound/feedback/hit.wav"
 addLoadingScreen "menuback" ( 0 0 0 ) 1.333333
+cvarDefault r_colorize2DIdentity 1
 
 // fallback data for missing fonts, shaders, and sarge player model
 addGameDir fallback-data

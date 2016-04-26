@@ -1,6 +1,7 @@
 defaultSound "sound/weapon/shared/bullet_world1.wav"
 cvarDefault r_overBrightBits 0
 cvarDefault r_mapOverBrightBits 0
+cvarDefault r_colorize2DIdentity 1
 
 // fallback data for missing fonts, shaders, and sarge player model
 addGameDir fallback-data
