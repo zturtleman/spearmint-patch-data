@@ -18,6 +18,8 @@ Game titles and logo designs are copyright id Software or their respectful owner
   * q3test-1.06 and q3test-1.08/scripts/gfx.shader are edited versions to fix syntax.
 
 ## Games
+If a version isn't specified for a game, the newest official patched version is expected.
+
 | Title                             | Original Game Dir | Spearmint Game Dir | Game code repo for testing |
 | --------------------------------- | ----------------- | ------------------ | ---------- |
 | Quake III Arena                   | baseq3            | baseq3             | mint-arena |
