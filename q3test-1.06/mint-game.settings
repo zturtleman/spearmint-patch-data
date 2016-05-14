@@ -7,6 +7,25 @@ addGameDir fallback-data
 // pre-release Q3 colorizes rgbGen identity
 cvarDefault r_colorize2DIdentity 1
 
+// make everything use visor as it's the only player model included
+cvarDefault model visor
+cvarDefault headmodel visor
+cvarDefault 2model visor
+cvarDefault 2headmodel visor
+cvarDefault 3model visor
+cvarDefault 3headmodel visor
+cvarDefault 4model visor
+cvarDefault 4headmodel visor
+
+cvarDefault team_model visor
+cvarDefault team_headmodel visor
+cvarDefault 2team_model visor
+cvarDefault 2team_headmodel visor
+cvarDefault 3team_model visor
+cvarDefault 3team_headmodel visor
+cvarDefault 4team_model visor
+cvarDefault 4team_headmodel visor
+
 paksums {
 	pak0 1014063511 nodownload
 }
