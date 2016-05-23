@@ -1,7 +1,8 @@
 defaultSound "sound/feedback/hit.wav"
 addLoadingScreen menuback ( 0 0 0 ) 1.333333
 
-// q3test 1.07 is a patch for 1.06, so include the pak0.pk3 from the 1.06 path
+// q3test 1.07 includes/reuses 1.06 pak0.pk3 and adds a new pak1.pk3
+// so include the pak0.pk3 from the 1.06 path
 addGameDir q3test-1.06
 
 // fallback data for missing fonts, shaders, and sarge player model
