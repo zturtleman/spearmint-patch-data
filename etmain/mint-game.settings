@@ -2,6 +2,11 @@ defaultSound "sound/player/hurt_barbwire.wav"
 cvarDefault r_overBrightBits 0
 cvarDefault r_defaultFogParmsType linear
 
+// Enable q3map2 vertex-approximated lightmap support.
+// It also colorizes misc_models with lightmap stage and no lightmap,
+// which don't exist in default ET maps but do exist in Q3 maps.
+cvarDefault r_missingLightmapUseDiffuseLighting 1
+
 // fallback data for missing fonts, shaders, and sarge player model
 addGameDir fallback-data
 
