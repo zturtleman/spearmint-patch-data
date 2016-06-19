@@ -41,6 +41,7 @@ If a version isn't specified for a game, the newest official patched version is 
 | Jedi Outcast                      | base              | basejk2            | mint-helix |
 | Jedi Academy                      | base              | baseja             | mint-helix |
 | OpenArena 0.8.8                   | baseoa            | baseoa             | mint-arena |
+| OpenArena (The Mission Pack) 0.8.8| missionpack       | missionpackoa      | mint-arena |
 | Tremulous 1.1                     | base              | basetrem           | mint-arena |
 | Smokin' Guns 1.1                  | smokinguns        | smokinguns         | mint-arena |
 | World of Padman 1.6               | wop               | wop                | mint-arena |

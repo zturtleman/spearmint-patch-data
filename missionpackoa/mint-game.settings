@@ -1,0 +1,26 @@
+defaultSound "sound/feedback/hit.wav"
+addLoadingScreen textures/sfx/logo512 ( 0.047058824 0.164705882 0.274509804 ) 1
+
+// OpenArena missionpack is missing default Team Arena team model, "james".
+// if any team_model is missing cgame exits to menu.
+cvarDefault team_model sarge
+cvarDefault team_headmodel sarge
+cvarDefault 2team_model sarge
+cvarDefault 2team_headmodel sarge
+cvarDefault 3team_model sarge
+cvarDefault 3team_headmodel sarge
+cvarDefault 4team_model sarge
+cvarDefault 4team_headmodel sarge
+
+// This is an OpenArena mod, so add baseoa to search path.
+addGameDir baseoa
+
+// Note: This checksum is for the offical OpenArena 0.8.8 pk3.
+//
+// Debian packages have modified pk3s (replaced QVMs) and have different
+// checksums in Spearmint (fixed the bug they abused). So Debian pk3s
+// fail checksum test and are not pure compatible. TODO: fix this?...
+paksums {
+	mp-pak0	1825188429
+}
+
