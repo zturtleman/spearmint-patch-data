@@ -15,10 +15,7 @@
    height="64"
    id="svg1306"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="demoq3test.svg"
-   inkscape:export-filename="/home/zack/Programs/spearmint-patch-data/demoq3test/windowicon32.png"
-   inkscape:export-xdpi="45"
-   inkscape:export-ydpi="45">
+   sodipodi:docname="demoq3test.svg">
   <metadata
      id="metadata17">
     <rdf:RDF>
@@ -94,17 +91,20 @@
     <g
        id="g1327">
       <path
-         d="M 34.538626,32.090265 L 32.538627,64 L 30.538626,32 L 32.538627,0 L 34.538626,32.090265 z "
-         style="opacity:1;fill:url(#linearGradient3077);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.5261631;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="path1329" />
+         d="M 34.538626,32.090265 32.538627,64 30.538626,32 32.538627,0 34.538626,32.090265 z"
+         style="fill:url(#linearGradient3077);fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path1329"
+         inkscape:connector-curvature="0" />
       <path
-         d="M 28.059562,59 L 25.612281,34.036677 C 25.612281,34.036677 2.1281775,31.218199 2.0010765,25.064561 C 1.9155925,21.016997 6.9421265,19.095215 9.6946005,19.095215 C 12.000721,19.095215 4.2082195,19.143464 4.1713675,24.287073 C 4.1405475,28.679913 29.3599,30.346963 29.3599,30.346963 L 28.059562,59 z "
-         style="fill:url(#linearGradient2190);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="path1307" />
+         d="M 28.059562,59 25.612281,34.036677 c 0,0 -23.4841035,-2.818478 -23.6112045,-8.972116 -0.085484,-4.047564 4.94105,-5.969346 7.693524,-5.969346 2.3061205,0 -5.486381,0.04825 -5.523233,5.191858 -0.03082,4.39284 25.1885325,6.05989 25.1885325,6.05989 L 28.059562,59 z"
+         style="fill:url(#linearGradient2190);fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path1307"
+         inkscape:connector-curvature="0" />
       <path
-         d="M 36.940438,59 L 39.387719,34.036677 C 39.387719,34.036677 62.871823,31.218199 62.998924,25.064561 C 63.084408,21.016997 58.057873,19.095215 55.305399,19.095215 C 52.999279,19.095215 60.79178,19.143464 60.828632,24.287073 C 60.859452,28.679913 35.6401,30.346963 35.6401,30.346963 L 36.940438,59 z "
-         style="fill:url(#linearGradient2194);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="path2192" />
+         d="m 36.940438,59 2.447281,-24.963323 c 0,0 23.484104,-2.818478 23.611205,-8.972116 0.08548,-4.047564 -4.941051,-5.969346 -7.693525,-5.969346 -2.30612,0 5.486381,0.04825 5.523233,5.191858 0.03082,4.39284 -25.188532,6.05989 -25.188532,6.05989 L 36.940438,59 z"
+         style="fill:url(#linearGradient2194);fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path2192"
+         inkscape:connector-curvature="0" />
     </g>
   </g>
   <text
@@ -116,6 +116,6 @@
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
        id="tspan2996"
-       x="31.563999"
+       x="13.801999"
        y="38.57">DEMO</tspan></text>
 </svg>
