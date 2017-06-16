@@ -4,11 +4,14 @@ addLoadingScreen menuback ( 0 0 0 ) 1.333333
 // This is a quake 3 mod, so add baseq3 to search path.
 addGameDir baseq3
 
+// pak1 [required] - fix teaminfo.txt, update qvms
+// pak2 [optional] - update qvms
+// pak3 [optional] - add punkbuster to ui files, updates qvms; not included with Steam release.
 paksums {
 	// nodownload keyword tells server not to allow pk3 to be downloaded
 	pak0	946490770	nodownload
 	pak1	1414087181	nodownload
-	pak2	409244605	nodownload
-	pak3	648653547	nodownload
+	pak2	409244605	nodownload optional
+	pak3	648653547	nodownload optional
 }
 
