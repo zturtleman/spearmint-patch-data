@@ -17,6 +17,24 @@ Game titles and logo designs are copyright id Software or their respectful owner
   * rtcwcommon/scripts/common.shader and ui_wolf.shader are edited versions to fix syntax from RTCW pak0.pk3.
   * q3test-1.06 and q3test-1.08/scripts/gfx.shader are edited versions to fix syntax.
 
+The following use M+ Outline Fonts (M+ 1c Bold), for font license see M+FONTS_LICENSE.txt.
+
+  * fallback-data/gfx/2d/bigchars.png
+  * fallback-data/gfx/2d/numbers/eight_32b.png
+  * fallback-data/gfx/2d/numbers/five_32b.png
+  * fallback-data/gfx/2d/numbers/four_32b.png
+  * fallback-data/gfx/2d/numbers/minus_32b.png
+  * fallback-data/gfx/2d/numbers/nine_32b.png
+  * fallback-data/gfx/2d/numbers/one_32b.png
+  * fallback-data/gfx/2d/numbers/seven_32b.png
+  * fallback-data/gfx/2d/numbers/six_32b.png
+  * fallback-data/gfx/2d/numbers/three_32b.png
+  * fallback-data/gfx/2d/numbers/two_32b.png
+  * fallback-data/gfx/2d/numbers/zero_32b.png
+  * fallback-data/menu/art/font1_prop.png
+  * fallback-data/menu/art/font1_prop_glo.png
+  * fallback-data/menu/art/font2_prop.png
+
 ## Games
 If a version isn't specified for a game, the newest official patched version is expected.
 
