@@ -1,19 +1,66 @@
 defaultSound "sound/feedback/hit.wav"
 addLoadingScreen textures/sfx/logo512 ( 0.047058824 0.164705882 0.274509804 ) 1
 
-// OpenArena missionpack is missing default Team Arena team model, "james".
-// if any team_model is missing cgame exits to menu.
-cvarDefault team_model sarge
-cvarDefault team_headmodel sarge
-cvarDefault 2team_model sarge
-cvarDefault 2team_headmodel sarge
-cvarDefault 3team_model sarge
-cvarDefault 3team_headmodel sarge
-cvarDefault 4team_model sarge
-cvarDefault 4team_headmodel sarge
-
 // This is an OpenArena mod, so add baseoa to search path.
 addGameDir baseoa
+
+// Specifies whether to use default_male_model/headmodel or
+// default_female_model/headmodel cvars when player model fails to load.
+cvarDefault default_model_gender male
+cvarDefault default_team_model_gender male
+
+// default_male_model and default_female_model are used for fallback sounds.
+// These are also used for default model depending on default_model_gender
+// setting.
+cvarDefault default_male_model sarge
+cvarDefault default_male_headmodel sarge
+cvarDefault default_female_model major
+cvarDefault default_female_headmodel major
+
+// default_male_team_model and default_female_team_model are used for fallback sounds.
+// These are also used for default model depending on default_model_gender
+// setting.
+// default_*_team_model control the base model for 'male' and 'female' characters
+// in Mission Pack UI's teaminfo.txt.
+// Note: These differ between 'base' and 'missionpack'.
+cvarDefault default_male_team_model sergei
+cvarDefault default_male_team_headmodel *sergei
+cvarDefault default_female_team_model kyonshi
+cvarDefault default_female_team_headmodel *kyonshi
+
+// Default splitscreen player models for non-team game types.
+cvarDefault model sarge
+cvarDefault headmodel sarge
+cvarDefault 2model major
+cvarDefault 2headmodel major
+cvarDefault 3model sergei
+cvarDefault 3headmodel sergei
+cvarDefault 4model skelebot
+cvarDefault 4headmodel skelebot
+
+// Default splitscreen player models for team game types.
+// Note: These differ between 'base' and 'missionpack'.
+cvarDefault team_model sergei
+cvarDefault team_headmodel *sergei
+cvarDefault 2team_model kyonshi
+cvarDefault 2team_headmodel *kyonshi
+cvarDefault 3team_model sergei
+cvarDefault 3team_headmodel *sergei
+cvarDefault 4team_model kyonshi
+cvarDefault 4team_headmodel *kyonshi
+
+// Default team names. They should be listed in teaminfo.txt if it exists.
+cvarDefault g_redTeam Heathens
+cvarDefault g_blueTeam Cyborgs
+
+// Default team names for Mission Pack UI.
+cvarDefault ui_redTeam Heathens
+cvarDefault ui_blueTeam Cyborgs
+cvarDefault ui_teamName Heathens
+cvarDefault ui_opponentName Cyborgs
+
+// Default name for Mission Pack UI's find player menu.
+cvarDefault ui_findplayer sarge
 
 // Note: This checksum is for the offical OpenArena 0.8.8 pk3.
 //
