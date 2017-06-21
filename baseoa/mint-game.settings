@@ -1,6 +1,10 @@
 defaultSound "sound/feedback/hit.wav"
 addLoadingScreen textures/sfx/logo512 ( 0.364705882 0.090196078 0.090196078 ) 1
 
+// Flare graphics don't look so good. They're not enabled by default in
+// official OpenArena releases either. Let's disable them.
+cvarDefault r_flares 0
+
 // Specifies whether to use default_male_model/headmodel or
 // default_female_model/headmodel cvars when player model fails to load.
 cvarDefault default_model_gender male

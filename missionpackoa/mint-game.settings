@@ -4,6 +4,10 @@ addLoadingScreen textures/sfx/logo512 ( 0.047058824 0.164705882 0.274509804 ) 1
 // This is an OpenArena mod, so add baseoa to search path.
 addGameDir baseoa
 
+// Flare graphics don't look so good. They're not enabled by default in
+// official OpenArena releases either. Let's disable them.
+cvarDefault r_flares 0
+
 // Specifies whether to use default_male_model/headmodel or
 // default_female_model/headmodel cvars when player model fails to load.
 cvarDefault default_model_gender male
