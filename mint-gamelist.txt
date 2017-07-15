@@ -1,0 +1,12 @@
+// List of games to pick as default if installed.
+//
+// The first gamedir with file that exists is used.
+// If none exist, uses default from engine (baseq3).
+//
+// tryGameDir <gamedir> <file>
+//   file must exist in gamedir for it to be selected.
+
+tryGameDir baseq3 pak0.pk3
+tryGameDir baseoa pak0.pk3
+tryGameDir demoq3 pak0.pk3
+tryGameDir tademo pak0.pk3
