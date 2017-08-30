@@ -35,6 +35,11 @@ The following use M+ Outline Fonts (M+ 1c Bold), for font license see M+FONTS_LI
   * fallback-data/menu/art/font1_prop_glo.png
   * fallback-data/menu/art/font2_prop.png
 
+The following are licensed under the SIL Open Font License, Version 1.1. See LIBERATION_LICENSE.txt.
+
+  * fonts/LiberationSans-Bold.ttf
+  * fonts/LiberationMono-Regular.ttf
+
 ## Games
 If a version isn't specified for a game, the newest official patched version is expected.
 
