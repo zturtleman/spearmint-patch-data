@@ -1,3 +1,6 @@
+//
+// This file is read by Spearmint.
+//
 // List of games to pick as default if installed.
 //
 // The first gamedir with file that exists is used.
