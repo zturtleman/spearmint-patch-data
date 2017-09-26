@@ -1,5 +1,5 @@
 defaultSound "sound/feedback/hit.wav"
-addLoadingScreen menuback ( 0 0 0 ) 1.333333
+addLoadingScreen ui/assets/backscreen ( 0 0 0 ) 1.333333
 
 // This is a quake 3 mod, so add baseq3 to search path.
 addGameDir baseq3
