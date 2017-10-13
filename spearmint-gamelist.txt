@@ -11,5 +11,8 @@
 
 tryGameDir baseq3 pak0.pk3
 tryGameDir baseoa pak0.pk3
+tryGameDir baseturtle assets0.pk3
+
+// The demo versions don't have a menu for loading other games so try them last.
 tryGameDir demoq3 pak0.pk3
 tryGameDir tademo pak0.pk3
