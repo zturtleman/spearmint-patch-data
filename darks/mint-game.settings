@@ -1,0 +1,15 @@
+defaultSound "sound/feedback/cl_hit.wav"
+//addLoadingScreen menuback ( 0 0 0 ) 1.333333
+
+// fallback data for missing fonts, shaders, and sarge player model
+addGameDir fallback-data
+
+paksums {
+	// nodownload keyword tells server not to allow pk3 to be downloaded
+	darks0	2959014713	nodownload
+	darks1	375519087	nodownload
+	darks2	3594470740	nodownload
+	darks3	1802238006	nodownload
+	darks4	997178224	nodownload
+}
+

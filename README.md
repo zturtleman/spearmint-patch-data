@@ -73,4 +73,5 @@ If a version isn't specified for a game, the newest official patched version is 
 | Q3Test 1.08                       | demoq3            | q3test-1.08        | mint-arena |
 | Q3Test 1.07                       | demoq3            | q3test-1.07        | mint-arena |
 | Q3Test 1.06                       | demoq3            | q3test-1.06        | mint-arena |
+| Dark Salvation 1.06               | darks/*.ds1       | darks/*.pk3        | mint-arena |
 
