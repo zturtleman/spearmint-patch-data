@@ -1,5 +1,6 @@
 defaultSound "sound/feedback/hit.wav"
 addLoadingScreen "gfx/2d/conback" ( 0 0 0 ) 1.333333
+cvarDefault r_mapOverBrightBits 1
 
 paksums {
 	// nodownload keyword tells server not to allow pk3 to be downloaded
