@@ -15,7 +15,7 @@ Game titles and logo designs are copyright id Software or their respectful owner
   * RTCW and ET window icons based on wet.svg image from zenthought.org.
   * World of Padman window icon based on icon.svg image from World of Padman 1.6.
   * rtcwcommon/scripts/common.shader and ui_wolf.shader are edited versions to fix syntax from RTCW pak0.pk3.
-  * q3test-1.06 and q3test-1.08/scripts/gfx.shader are edited versions to fix syntax.
+  * {q3test-1.06, q3test-1.08, s3quake3}/scripts/gfx.shader are edited versions to fix syntax.
 
 The following use M+ Outline Fonts (M+ 1c Bold), for font license see M+FONTS_LICENSE.txt.
 
@@ -73,5 +73,6 @@ If a version isn't specified for a game, the newest official patched version is 
 | Q3Test 1.08                       | demoq3            | q3test-1.08        | mint-arena |
 | Q3Test 1.07                       | demoq3            | q3test-1.07        | mint-arena |
 | Q3Test 1.06                       | demoq3            | q3test-1.06        | mint-arena |
+| S3Quake3                          | baseq3            | s3quake3           | mint-arena |
 | Dark Salvation 1.06               | darks/*.ds1       | darks/*.pk3        | mint-arena |
 

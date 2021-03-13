@@ -1,0 +1,33 @@
+defaultSound "sound/feedback/hit.wav"
+addLoadingScreen menuback ( 0 0 0 ) 1.333333
+
+// fallback data for missing fonts and shaders
+// can't use it as it prevents using the DDS files from S3Quake3.
+//addGameDir fallback-data
+
+// pre-release Q3 colorizes rgbGen identity
+cvarDefault r_colorize2DIdentity 1
+
+// make everything use visor or sarge as the default player model
+cvarDefault model visor
+cvarDefault headmodel visor
+cvarDefault 2model sarge
+cvarDefault 2headmodel sarge
+cvarDefault 3model visor
+cvarDefault 3headmodel visor
+cvarDefault 4model sarge
+cvarDefault 4headmodel sarge
+
+cvarDefault team_model visor
+cvarDefault team_headmodel visor
+cvarDefault 2team_model sarge
+cvarDefault 2team_headmodel sarge
+cvarDefault 3team_model visor
+cvarDefault 3team_headmodel visor
+cvarDefault 4team_model sarge
+cvarDefault 4team_headmodel sarge
+
+paksums {
+	pak0 1837696535 nodownload
+}
+
