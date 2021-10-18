@@ -1,0 +1,32 @@
+defaultSound "sound/feedback/hit.wav"
+addLoadingScreen menuback ( 0 0 0 ) 1.333333
+
+// fallback data for missing fonts, shaders, and sarge player model
+addGameDir fallback-data
+
+// pre-release Q3 colorizes rgbGen identity
+cvarDefault r_colorize2DIdentity 1
+
+// make everything use sarge as it's the only player model included
+cvarDefault model sarge
+cvarDefault headmodel sarge
+cvarDefault 2model sarge
+cvarDefault 2headmodel sarge
+cvarDefault 3model sarge
+cvarDefault 3headmodel sarge
+cvarDefault 4model sarge
+cvarDefault 4headmodel sarge
+
+cvarDefault team_model sarge
+cvarDefault team_headmodel sarge
+cvarDefault 2team_model sarge
+cvarDefault 2team_headmodel sarge
+cvarDefault 3team_model sarge
+cvarDefault 3team_headmodel sarge
+cvarDefault 4team_model sarge
+cvarDefault 4team_headmodel sarge
+
+paksums {
+	// no default pak
+}
+
